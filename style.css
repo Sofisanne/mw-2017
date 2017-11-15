@@ -1,0 +1,255 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+*{
+  font-family: "Roboto", Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#hero{
+  background:url(https://raw.githubusercontent.com/Sofisanne/ModernWeb/478f1668ce0ce3fde1843d5b60d93bfeaf2ed447/footer.jpg);
+  background-repeat:no-repeat;
+
+  /*
+  "background-size: cover;" sets background image to always scale the background image to cover the entire div.
+  "background-size: contain;" sets background image to squeeze the image inside the container area.
+
+  */
+  background-position: left top;
+  width: 1190px;
+  height: 640px;
+}
+
+
+.title{
+  color: #FFFFFF;
+  font-size: 92px;
+  text-align:center;
+  padding-top: 100px;
+  font-family: "Roboto", Helvetica, sans-serif;
+  font-weight: lighter;
+ }
+
+ .sub-title{
+   color: #FFFFFF;
+   font-size: 24px;
+   line-height: 28px;
+   text-align:center;
+   padding-bottom: 100px;
+   font-family: "Roboto", Helvetica, sans-serif;
+   font-weight: lighter;
+  }
+
+.nav {
+}
+.nav ul {
+  margin: 0px;
+  padding: 0px;
+  height: 30px;
+  list-style-type: none;
+}
+
+.nav li {
+  float: right;
+  display: block;
+  font-size: 18px;
+  margin: 35px;
+  /*line-height: 21px;*/
+  /*width: 35px;*/
+  /*margin-right: 100px;*/
+}
+
+.nav li a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.intro-text{
+  color: #C3BFBF;
+  font-size: 32px;
+  line-height: 56px;
+  text-align:center;
+  font-family: "Roboto", Helvetica, sans-serif;
+  font-weight: lighter;
+ }
+
+.course-goals-title{
+  color: #777777;
+  font-size: 28px;
+  line-height: 33px;
+  text-align:center;
+  font-family: "Roboto", Helvetica, sans-serif;
+  font-weight: medium;
+ }
+
+ .course-goals-list-subtitles{
+   color: #777777;
+   font-size: 16px;
+   line-height: 18px;
+   text-align:left;
+   font-family: "Roboto", Helvetica, sans-serif;
+   font-weight: bolder;
+   text-transform: uppercase;
+  }
+
+.course-goals-body-copy{
+  color: #777777;
+  font-size: 16px;
+  line-height: 18px;
+  text-align:left;
+  font-family: "Roboto", Helvetica, sans-serif;
+  font-weight: bolder;
+ }
+
+ .student-list-title{
+   color: #444444;
+   font-size: 28px;
+   line-height: 53px;
+   text-align:center;
+   font-family: "Roboto", Helvetica, sans-serif;
+   font-weight: medium;
+   text-transform: uppercase;
+  }
+
+  .student-name{
+    color: #444444;
+    font-size: 22px;
+    line-height: 25px;
+    text-align:left;
+    font-family: "Roboto", Helvetica, sans-serif;
+    font-weight: medium;
+   }
+
+   .social-link-list {
+  margin: 30;
+  padding: 30;
+  list-style-type: none;
+  overflow: hidden;
+  padding: 1rem;
+}
+
+li {
+  float: left;
+  display: block;
+  margin: 0 20px;
+}
+
+.social-link {
+  color: #666666;
+  font-size: 18px;
+  font-family: "Roboto", Helvetica, sans-serif;
+  font-weight: medium;
+  text-decoration: none;
+}
+
+.social-link::before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url('http://jeremyabrahams.github.io/img/slice.png')
+}
+
+.social-link::before {
+  content: '';
+  display: inline-block;
+  margin-right: 5px;
+  width: 20px;
+  height: 20px;
+  background-image: no-repeat;
+  background-image:
+  url('http://jeremyabrahams.github.io/img/slice.png')
+}
+
+.twitter::before {
+  background-position: 0px 0px;
+}
+.facebook::before {
+   background-position: -34px 0px;
+}
+.dribbble::before {
+  background-position: -69px 0px;
+}
+.linkedin::before {
+  background-position: -104px 0px;
+}
+
+
+
+   .instructor-call-to-action{
+     color: #FFFFFF;
+     font-size: 18px;
+     line-height: 53px;
+     text-align:left;
+     font-family: "Roboto", Helvetica, sans-serif;
+     font-weight: lighter;
+     text-transform: uppercase;
+    }
+
+    .instructor-headline{
+      color: #FFFFFF;
+      font-size: 36px;
+      line-height: 42px;
+      text-align:left;
+      font-family: "Roboto", Helvetica, sans-serif;
+      font-weight: medium;
+      text-transform: uppercase;
+     }
+
+     .instructor-subhead{
+       color: #FFFFFF;
+       font-size: 22px;
+       line-height: 25px;
+       text-align:left;
+       font-family: "Roboto", Helvetica, sans-serif;
+       font-weight: medium;
+      }
+
+     .instructor-body{
+       color: #FFFFFF;
+       font-size: 20px;
+       line-height: 28px;
+       text-align:left;
+       font-family: "Roboto", Helvetica, sans-serif;
+      }
+
+      .student-quote{
+        color: #E66244;
+        font-size: 48px;
+        line-height: 64px;
+        text-align:center;
+        font-family: "Roboto", Helvetica, sans-serif;
+        font-weight: medium;
+       }
+
+        .student-title{
+          color: #AAAAAA;
+          font-size: 16px;
+          line-height: 24px;
+          text-align:center;
+          font-family: "Roboto", Helvetica, sans-serif;
+          font-weight: medium;
+         }
+
+         .class-date-time{
+           color: #FFFFFF;
+           font-size: 36px;
+           line-height: 22.4px;
+           text-align:left;
+           font-family: "Roboto", Helvetica, sans-serif;
+           font-weight: medium;
+          }
+
+          .class-address{
+            color: #FFFFFF;
+            font-size: 14px;
+            line-height: 16px;
+            text-align:left;
+            font-family: "Roboto", Helvetica, sans-serif;
+           }
